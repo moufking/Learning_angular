@@ -1,0 +1,5 @@
+<h2>AUTHENTIFICATION</h2>
+
+<button class="btn btn-primary" *ngIf="!authstatus" (click)="onSignup()">Inscription</button>
+
+<button class="btn btn-danger" *ngIf="authstatus" (click)="onSignOut()">Deconnexion</button>

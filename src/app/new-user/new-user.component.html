@@ -1,0 +1,14 @@
+<div class="col-sm-8 col-sm-offset-2">
+  <form [formGroup]="userForm" (ngSubmit)="onSubmitForm()">
+    <div class="form-group">
+      <label for=""></label>
+      <input type="text" class="form-control" id="fistname" formControlName="firstname">
+    </div>
+
+    <div class="form-group">
+        <label for=""></label>
+        <input type="text" class="form-control" id="lastname" formControlName="lastname">
+    </div>
+
+  </form>
+</div>
